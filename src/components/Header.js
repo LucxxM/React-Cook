@@ -6,6 +6,7 @@ import HeaderMenuResponsive from './HeaderMenuResponsive';
 const Header = () => {
 	const [showMenu, setShowMenu] = useState(false);
 
+
 	return (
 		<header className={`${styles.header} d-flex flex-row align-items-center`}>
 			<div className="flex-fill">
